@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../image/guitar.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/task1(v2).css">
+    <script src="https://kit.fontawesome.com/2941ec09c5.js" crossorigin="anonymous"></script>
+</head>
+
+<div class="navbar position-sticky t-0 w-100 df z-index2" id="top">
+    <a href="#" class="ml-4 mt-2 .navbar-brand"><i class="fa-solid fa-truck-fast">Fcees</i></a>
+    <div class="btn w-10 mr-6  ml-auto mt-2 mb-2 obtn">Get Started</div>
+</div>
+
+<div id="popo" class="z-index1 position-fixed vh vw hidden">
+
+    <div id="popi" class="ml-auto w-50 h-80 position-relative t-0 df">
+        <form>
+            <label for="fullname" class="mt-14">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required> <br><br>
+
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="tel" id="mobile" name="mobile" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="message">Enter Your Adress:</label> <br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div><span class="fa-solid position-relative t-10 r-10 fa-xmark fa-xl" id="cross"></span>
+</div>
+<div id="divs1" class="hidden z-index4 vh position-fixed">
+    <a href="#Section1" class="btn sb">Section 1</a>
+    <a href="#Section2" class="btn sb">Section 2</a>
+    <a href="#Section3" class="btn sb">Section 3</a>
+</div>
+<section class="vh df" id="Section1">
+    <div id="sec1" class="my-auto ">
+        <p id="p1"> 24/7 Custumer support <br> with 10000 service persons <br></p>
+        <button class="btn mt-2 mb-2 obtn position-relative l-35" id="p">get Started</button>
+    </div>
+</section>
+<section class="vh" id="Section2">
+    <img class="w-50" src="http://templates.thememodern.com/compact/images/about/we-are-thumb.jpg" height="100%" alt="">
+    <div id="sec2" class="w-50">
+        <h2>OUR FEATURES</h2>
+        <!-- <h4>Mobile Ready . Use both websites and mobile app</h4> -->
+        <span>
+            <h4>Mobile Ready - Use Both Website and Mobile App</h4>
+            <h4>24/7 Customer Service</h4> 
+            <h4>Home Delivery in Just 4 Days</h4>
+        </span> 
+        <h4><button class="btn mt-2 mb-2 obtn" id="o">get Started</button></h4>
+    </div>
+</section>
+<section class="vh" id="Section3"></section>
+<span class="position-fixed p-6 rounded-end  t-50" id="divs2"><i class="fa-solid fa-chevron-up fa-rotate-90 fa-xl"
+        id="btni"></i></span>
+<script type="module" src="../js/task1(v2).js"></script>
+
+</body>
+
+</html>
